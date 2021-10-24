@@ -54,7 +54,7 @@ It is a Current Starved Voltage Controlled Oscillator targerting 180nm tech for 
 # Introduction 
 
 A VCO is the heart of the PLL and can be designed either by LC or RC. A LC VCOs have superior phase noise performance compared with ring VCO’S. However, an LC VCO has a small tuning range, large layout area and possibly higher power. The ring oscillators, however, do not have the complication of the on-chip inductors required for the LC oscillators. Thus the chip area is reduced and have a wide tuning range; ring oscillators with even number of delay cells can produce quadrature-phase outputs.
-"Current-Starved" means that the current through the circuit is indeed limited. Lowering Vn and increasing Vp increases the effective drive resistance R<sub>eq</sub> of the inverter and thus increases the delay.The current in the first NMOS and PMOS are mirrored in each inverter/current source stage.Further tuning of oscillation frequency is done by adjusting the value of ID by changing size of bias stage transistors. Two buffer inverters are additionally used after inverter stages for preventing output loading (A
+"Current-Starved" means that the current through the circuit is indeed limited. Lowering Vn and increasing Vp increases the effective drive resistance R<sub>eq</sub> of the inverter and thus increases the delay.The current in the first NMOS and PMOS are mirrored in each inverter/current source stage.Further tuning of oscillation frequency is done by adjusting the value of ID by changing size of bias stage transistors. Two buffer inverters are additionally used after inverter stages for preventing output loading(A
 large capacitive load may affect the F<sub>osc</sub> and K<sub>vco</sub> ).
 
 
