@@ -2,7 +2,7 @@
 project: 
   description: "Current Starved Voltage Controlled Oscillator"
   foundry: "SkyWater"
-  git_url: "https://github.com/Nalinkumar2002/caravel_vco_mpw3.git"
+  git_url: "https://github.com/Nalinkumar2002/caravel_vco_tapeout_mpw3.git"
   organization: "VSD Corp. Pvt. Ltd."
   organization_url: "https://www.vlsisystemdesign.com/"
   owner: "Nalinkumar S"
