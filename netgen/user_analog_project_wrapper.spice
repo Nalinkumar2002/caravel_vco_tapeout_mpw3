@@ -373,7 +373,7 @@ C3 a_90876_71276# io_analog[7] 2.03fF
 + wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6]
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
 + wbs_stb_i wbs_we_i
-Xlayout_csvco_a io_analog[0] vccd1 io_analog[1] vssa1
+Xlayout_csvco_a io_analog[0] vccd1 io_analog[1] vssa1 layout_csvco_a
 Xlayout_csvco_b io_analog[3] io_analog[4] io_analog[5] io_analog[2] layout_csvco_b
 Xlayout_csvco_c io_analog[9] io_analog[8] io_analog[7] io_analog[6] layout_csvco_c
 .ends
